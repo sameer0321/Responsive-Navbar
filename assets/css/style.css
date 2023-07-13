@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.d-flex{
+    display: flex;
+}
+.align-item{
+    align-items: center;
+}
+.font{
+    font-family: Rubik;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.font1{
+font-family: Rubik;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.justify-content{
+    justify-content: space-between;
+}
+.button{
+    width: 53px;
+height: 19px;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+background: none;
+border: none;
+color: #0B132A;
+}
+.button1{
+    width: 150px;
+height: 45px;
+border-radius: 50px;
+border: 1px solid #F53855;
+background-color: transparent;
+color: #F53855;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+}
+.font2{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #4F5665;
+}
+.pl-150{
+    padding-left: 150px;
+}
+.pl-40{
+    padding-left: 40px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.col-6{
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.font3{
+    width: 555px;
+height: 140px;
+font-family: Rubik;
+font-size: 50px;
+font-weight: 500;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+color: #0B132A;
+}
+.font4{
+font-family: Rubik;
+font-size: 50px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+color: #0B132A;
+}
+.font5{
+    width: 555px;
+height: 60px;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #4F5665;
+}
+.font6{
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #4F5665;
+}
+.button2{
+    width: 250px;
+height: 60px;
+border-radius: 10px;
+background-color: #F53838;
+border: none;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.pt-45{
+    padding-top: 45px;
+}
+.pt-116{
+    padding-top: 116px;
+}
+.pt-88{
+    padding-top: 88px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.toggle-bar{
+    display: none;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 5px;
+}
+.menu span{
+    height: 4px;
+    width: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+}
+@media(max-width:1012px){
+    .ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        min-height: 100vh;
+        right: -100%;
+        transition: all 1000ms linear;
+        background-color: orange;
+    }
+    .gap{
+        gap: 40px;
+    }
+    .pl-40{
+        padding-left: 0;
+    }
+    .ml-30{
+        margin-left: 0;
+    }
+    .pl-150{
+        padding-left: 0;
+    }
+    input[type="checkbox"]:checked+.ul{
+        right: 0;
+    }
+    .menu{
+        z-index: 1;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+@media(min-width:1012px){
+    .menu{
+        display: none;
+    }
+}
+
