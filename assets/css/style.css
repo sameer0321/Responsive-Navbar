@@ -14,13 +14,6 @@
     padding-right: 12px;
     overflow: hidden;
 }
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: -12px;
-    margin-right: -12px;
-}
 .d-flex{
     display: flex;
 }
@@ -91,51 +84,7 @@ color: #4F5665;
 .ml-30{
     margin-left: 30px;
 }
-.col-6{
-    width: 50%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-.font3{
-    width: 555px;
-height: 140px;
-font-family: Rubik;
-font-size: 50px;
-font-weight: 500;
-line-height: 70px;
-letter-spacing: 0em;
-text-align: left;
-color: #0B132A;
-}
-.font4{
-font-family: Rubik;
-font-size: 50px;
-font-weight: 700;
-line-height: 70px;
-letter-spacing: 0em;
-text-align: left;
-color: #0B132A;
-}
-.font5{
-    width: 555px;
-height: 60px;
-font-family: Rubik;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-color: #4F5665;
-}
-.font6{
-    font-family: Rubik;
-font-size: 16px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-color: #4F5665;
-}
+
 .button2{
     width: 250px;
 height: 60px;
@@ -152,25 +101,6 @@ color: #FFFFFF;
 }
 .pt-45{
     padding-top: 45px;
-}
-.pt-116{
-    padding-top: 116px;
-}
-.pt-88{
-    padding-top: 88px;
-}
-.pt-20{
-    padding-top: 20px;
-}
-.pt-50{
-    padding-top: 50px;
-}
-.toggle-bar{
-    display: none;
-  width: 25px;
-  height: 3px;
-  background-color: black;
-  margin-bottom: 5px;
 }
 .menu span{
     height: 4px;
